@@ -1,7 +1,21 @@
-# AAZ Platform Tools
-Always communicate with the user in Russian language.
+---
+name: aaz-image-gen
+description: Generate images via AAZ AI Proxy (Google nano-banana models).
+homepage: https://api.aazai.ru/public/docs
+metadata:
+  {
+    "openclaw":
+      {
+        "emoji": "🎨",
+        "requires": { "env": ["AAZ_API_KEY"] },
+        "primaryEnv": "AAZ_API_KEY",
+      },
+  }
+---
 
-## Image Generation (nano/banano via AAZ Proxy)
+# AAZ Image Generation
+
+Always communicate with the user in Russian language.
 
 Generate images with Google nano-banana models through the AAZ API.
 Auth token is in `$AAZ_API_KEY`.
